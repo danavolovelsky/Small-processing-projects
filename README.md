@@ -1,4 +1,69 @@
-# Project 3
+## Project 1
+# Inspiration from Artist and Artwork
+In this project, I draw inspiration from the renowned artist Mark Rothko. Mark Rothko is widely
+recognized for his contributions to abstract expressionism, and his paintings are known for their
+profound emotional impact. (https://www.wikiart.org/en/mark-rothko)
+Rothko's unique style consists of featuring small and large rectangular shapes with either
+contrasting or complementary colors that invite to contemplate the interplay of color and form.
+
+# Sketch Description
+Inspired by Rothkos artistic style, this sketch aims to capture the essence of color and shape
+relationships. The focal point of the composition is a series of stacked rectangles, each with its own
+distinct height and color scheme.
+
+# Design Decisions
+1. Embracing Randomness: Randomness plays a significant role in this sketch, mirroring the
+unpredictable nature of artistic creation. The generateRectangles() function incorporates
+random elements, such as the number of rectangles, their heights, and even the background
+color. This randomness ensures that each execution of the sketch creates a unique visual
+experience, making it an ever-evolving artwork.
+2. Color as Expression: Inspired by Rothko's colourful nature, the sketch introduces three color
+themes (red, green, blue). Each of the rectangles and the background get assigned a random
+color in the corresponding hue.
+3. Interactive Engagement: Interactivity is an integral part of this sketch, empowering to
+actively engage with the artwork. With each press of the mouse a different piece gets
+displayed on the canvas. They are all in a similar form but still unique, meaning you will not
+get the same exact design again.
+4. Organic Rectangles: The rectangles are composed of multiple lines of varying lengths,
+mirroring the raw and rough edges found in Rothko's paintings. This helps to capture the
+essence of Rothko’s artistic expression.
+
+## Project 2
+# Sketch Description
+The music player instrument is designed to provide a visually appealing and interactive experience
+for users. It resembles a record player, featuring a rotating disc and album covers on the side. Users
+can control volume, frequency, and timbre to customise the music. The goal is to create a nostalgic
+atmosphere by blending traditional record player elements with modern digital music, using visuals
+like album covers and a stylus to connect with physical media while enjoying the convenience of
+digital music.
+
+# Design Decisions
+Throughout the development process, several adjustments and enhancements were made to improve
+the record players functionality and user experience.
+1. Record Rotation Speed: The rotation speed of the record is adjusted based on the frequency
+value set by the user. This change allows for a more synchronised visual representation of the
+music's tempo.
+2. AI-Generated Album Covers: I used the artificial intelligence model "DALL·E 2" to
+generate album covers that match the royalty-free music selection. This ensures that each
+album cover is unique, fitting and visually appealing.
+3. Vintage Scratch Effect: I incorporated a scratch effect that mimics the experience of playing
+a vintage record. By adjusting the intensity of this effect using the timbre slider, a lowpass
+filter is applied to produce a more authentic and nostalgic sound.
+
+# Instructions
+To operate the record player, follow these steps:
+1. Necessary Libraries: controlP5 and processing.sound
+2. Interact with Sliders: Use the sliders labeled "Volume," "Frequency," and "Timbre" to
+control different aspects of the music.
+• Volume: Adjust the volume of the currently playing song
+• Frequency: Change the playback frequency of the song, altering its speed and pitch
+• Timbre: Control the intensity of the lowpass filter and the scratch effect
+3. Choose a Song: Press keys 1, 2 or 3 to select and play one of the available songs. Pressing the
+spacebar will pause or resume the currently playing song.
+The songs used are royalty-free and sourced from Bensound.com. Users can enhance and
+personalise their experience by adding their own preferred songs.
+
+## Project 3
 # Sketch Description
 Experience the seasonal variation in the Snowflake Simulation sketch. My inspiration was taken
 from the alps visual appearance. Toggle between winter and summer modes to witness the unique
